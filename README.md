@@ -4,7 +4,7 @@
 In this AI driven project, I have explored the use of Tines, a workflow automation platform, to better understand how routine proccesses within cybersecurity can be streamlined through automation. The project involved using Elastic SIEM to generate security alerts, which were then automatically ingested by Tines. Tines then processed and evaluated the alerts, ultimately triggering an email notification.
 <br />
 
-<h2>Program walk-through:</h2>
+<h2>Project walk-through:</h2>
 
 <p align="center">
 Load a VM and download elastic SIEM. In this case I have used AWS to create a windows VM : <br/>
@@ -16,25 +16,23 @@ Setting up Elastic SIEM on the VM allows for log data to be injested into elasti
 ![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-08%20141747.png?raw=true)
 <br />
 <br />
-Here a workflow automation is setup using Times: <br/>
+Here a workflow automation is setup using Times, involving a webhook, AI and email: <br/>
 ![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-08%20142236.png?raw=true)
 <br />
 <br />
-A webhook can be used to intergrate with Elastic SIEM by enabling external notifications when specific events occur. For example, by creating a new detection rule in Elastic SIEM that matches event.code:"4672, which corresponds to a log event for administator login, an alert can be triggered.   <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+A webhook can be used to intergrate with Elastic SIEM by enabling external notifications when specific events occur. For example, by creating a new detection rule in Elastic SIEM that matches event.code:"4672, which corresponds to a log event for administator login, an alert can be triggered:   <br/>
+![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-08%20161240.png?raw=true)
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+The workflow automation use an AI action to summarise the incoming webhook alert into a concise sentence and genrate bullet points for analysts. the AI proccesses the alert using a prompt and passes the output to an email action which send an email alert to the analsyt.:  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
+Here is the email alert sent to the analsyt:  <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 <!--
  ```diff
