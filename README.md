@@ -8,10 +8,11 @@ In this AI driven project, I have explored the use of Tines, a workflow automati
 
 <p align="center">
 Load a VM and download elastic SIEM. In this case I have used AWS to create a windows VM : <br/>
-<img src="https://imgur.com/a/iyvf3bV"/>
+
+![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-09%20094109.pdf.png?raw=true)
 <br />
 <br />
-Select the disk:  <br/>
+Setting up Elastic SIEM on the VM allows for log data to be injested into elastic SIEM, this can be achieved through installing an endpoint detection agent, in this case, elastic defend. This provides security monitioring for the VM.:  <br/>
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
