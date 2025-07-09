@@ -16,8 +16,8 @@ Setting up Elastic SIEM on the VM allows for log data to be injested into elasti
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Here a workflow automation is setup using Times: <br/>
+![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-08%20142236.png?raw=true)
 <br />
 <br />
 Confirm your selection:  <br/>
