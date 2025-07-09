@@ -16,7 +16,7 @@ Setting up Elastic SIEM on the VM allows for log data to be injested into elasti
 ![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-08%20141747.png?raw=true)
 <br />
 <br />
-Here a workflow automation is setup using Times, involving a webhook, AI and email: <br/>
+Here a workflow automation is setup using Times, involving a webhook, AI and email action: <br/>
 ![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-08%20142236.png?raw=true)
 <br />
 <br />
@@ -24,7 +24,7 @@ A webhook can be used to intergrate with Elastic SIEM by enabling external notif
 ![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-08%20161240.png?raw=true)
 <br />
 <br />
-The workflow automation use an AI action to summarise the incoming webhook alert into a concise sentence and genrate bullet points for analysts. the AI proccesses the alert using a prompt and passes the output to an email action which send an email alert to the analsyt.:  <br/>
+The workflow automation use an AI action to summarise the incoming webhook alert into a concise sentence and genrate bullet points for analysts. The AI proccesses the alert using a prompt and passes the output to an email action which send an email alert to the analsyt:  <br/>
 ![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-08%20161240.png?raw=true)
 <br />
 <br />
