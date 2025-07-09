@@ -28,8 +28,8 @@ The workflow automation use an AI action to summarise the incoming webhook alert
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Here is the email alert sent to the analsyt:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Here is the email alert sent to the analyst:  <br/>
+![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-08%20161352.png?raw=true)
 <br />
 <br />
 
