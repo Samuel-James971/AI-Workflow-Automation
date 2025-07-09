@@ -12,7 +12,7 @@ Load a VM and download elastic SIEM. In this case I have used AWS to create a wi
 ![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-09%20094109.pdf.png?raw=true)
 <br />
 <br />
-Setting up Elastic SIEM on the VM allows for log data to be injested into elastic SIEM, this can be achieved through installing an endpoint detection agent, in this case, elastic defend. This provides security monitioring for the VM.:  <br/>
+Setting up Elastic SIEM on the VM allows for log data to be injested into elastic SIEM, this can be achieved through installing an endpoint detection agent, in this case, elastic defend. This provides security monitioring for the VM:  <br/>
 ![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-08%20141747.png?raw=true)
 <br />
 <br />
@@ -20,7 +20,7 @@ Here a workflow automation is setup using Times: <br/>
 ![image alt](https://github.com/Samuel-James971/AI-Workflow-Automation/blob/main/Screenshot%202025-07-08%20142236.png?raw=true)
 <br />
 <br />
-Confirm your selection:  <br/>
+A webhook can be used to intergrate with Elastic SIEM by enabling external notifications when specific events occur. For example, by creating a new detection rule in Elastic SIEM that matches event.code:"4672, which corresponds to a log event for administator login, an alert can be triggered.   <br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
